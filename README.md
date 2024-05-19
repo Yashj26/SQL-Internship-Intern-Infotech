@@ -13,6 +13,7 @@ Company questions-
 
 
 Game Analysis Questions-
+
 1. Extract `P_ID`, `Dev_ID`, `PName`, and `Difficulty_level` of all players at Level 0.
 2. Find the total number of stages crossed at each difficulty level for Level 2 with players. 
 3. Find `Level1_code`wise average `Kill_Count` where `lives_earned` is 2, and at least 3 
