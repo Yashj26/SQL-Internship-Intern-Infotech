@@ -1,0 +1,58 @@
+Analysis:-
+Data Retrieval Queries:
+
+SELECT Statement:
+SQL Query: SELECT column1, column2 FROM table_name WHERE condition;
+Analysis: Retrieves specific columns from a table based on specified conditions.
+JOIN Operations:
+SQL Query: SELECT * FROM table1 INNER JOIN table2 ON table1.column = table2.column;
+Analysis: Combines rows from two tables based on related columns.
+Subqueries:
+SQL Query: SELECT * FROM table WHERE column IN (SELECT column FROM another_table WHERE condition);
+Analysis: Nested queries used within other queries to retrieve or manipulate data.
+UNION, INTERSECT, and EXCEPT:
+SQL Query: SELECT column1 FROM table1 UNION SELECT column1 FROM table2;
+Analysis: Combines results from multiple SELECT statements.
+Data Manipulation Queries:
+
+INSERT Statement:
+SQL Query: INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+Analysis: Adds new rows of data into a table.
+UPDATE Statement:
+SQL Query: UPDATE table_name SET column1 = value1 WHERE condition;
+Analysis: Modifies existing data in a table based on specified conditions.
+DELETE Statement:
+SQL Query: DELETE FROM table_name WHERE condition;
+Analysis: Removes rows from a table based on specified conditions.
+Aggregation Queries:
+
+GROUP BY Clause:
+SQL Query: SELECT column1, COUNT(column2) FROM table_name GROUP BY column1;
+Analysis: Groups rows that have the same values into summary rows.
+Aggregate Functions (SUM, AVG, COUNT, MAX, MIN):
+SQL Query: SELECT AVG(column) FROM table_name;
+Analysis: Performs calculations on a set of values and returns a single value.
+Data Definition Queries:
+
+CREATE TABLE Statement:
+SQL Query: CREATE TABLE table_name (column1 datatype, column2 datatype);
+Analysis: Creates a new table in the database.
+ALTER TABLE Statement:
+SQL Query: ALTER TABLE table_name ADD column_name datatype;
+Analysis: Modifies an existing table structure.
+DROP TABLE Statement:
+SQL Query: DROP TABLE table_name;
+Analysis: Deletes an existing table and its data from the database.
+Data Control Queries:
+
+GRANT Statement:
+SQL Query: GRANT privilege_name ON object_name TO user_name;
+Analysis: Provides specific privileges to database users.
+REVOKE Statement:
+SQL Query: REVOKE privilege_name ON object_name FROM user_name;
+Analysis: Removes previously granted privileges from database users.
+Data Integrity Queries:
+
+Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL):
+SQL Query: CREATE TABLE table_name (column1 datatype PRIMARY KEY, column2 datatype);
+Analysis: Ensures the integrity of data entered into the database.
