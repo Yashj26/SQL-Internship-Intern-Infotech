@@ -17,6 +17,7 @@ SELECT AVG(salary) AS average_salary
 FROM salaries;
 
 
+
 #Retrieve the birth date and hire date of employee with emp_no 10003.
 SELECT
 birth_date,
