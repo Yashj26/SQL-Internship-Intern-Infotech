@@ -16,8 +16,7 @@ Game Analysis Questions-
 1. Extract `P_ID`, `Dev_ID`, `PName`, and `Difficulty_level` of all players at Level 0.
 2. Find the total number of stages crossed at each difficulty level for Level 2 with players. 
 3. Find `Level1_code`wise average `Kill_Count` where `lives_earned` is 2, and at least 3 
-stages are crossed.  
-using `zm_series` devices. Arrange the result in decreasing order of the total number of 
+stages are crossed. using `zm_series` devices. Arrange the result in decreasing order of the total number of 
 stages crossed.
 4.Find the `first_login` datetime for each device ID.
 5. Find `P_ID` and levelwise sum of `kill_counts` where `kill_count` is greater than the 
