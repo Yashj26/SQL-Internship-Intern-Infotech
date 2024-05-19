@@ -6,7 +6,6 @@ WHERE level_details.Level = 0;
 
 
 
-
 #Find the total number of stages crossed at each difficulty level for Level 2 with players.
 SELECT 
     difficulty, 
