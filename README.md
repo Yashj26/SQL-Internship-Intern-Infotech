@@ -20,7 +20,7 @@ Game Analysis Questions-
 
 3. Find `Level1_code`wise average `Kill_Count` where `lives_earned` is 2, and at least 3 stages are crossed using `zm_series` devices. Arrange the result in decreasing order of the total number of stages crossed.
 
-4.Find the `first_login` datetime for each device ID.
+4. Find the `first_login` datetime for each device ID.
 
 5. Find `P_ID` and levelwise sum of `kill_counts` where `kill_count` is greater than the average kill count for Medium difficulty.
 
