@@ -1,0 +1,85 @@
+Findings:
+
+
+1.Company:-
+
+a. Total Number of Employees:
+
+SQL Query: SELECT COUNT(*) AS TotalEmployees FROM Employees;
+Finding: The total number of employees in the dataset is [TotalEmployees].
+
+
+b. Average Salary of Employees:
+
+SQL Query: SELECT AVG(Salary) AS AverageSalary FROM Employees;
+Finding: The average salary of employees in the dataset is [AverageSalary].
+
+
+c. Employee with the Highest Salary:
+
+SQL Query:
+SELECT FirstName, LastName, MAX(Salary) AS HighestSalary 
+FROM Employees;
+Finding: [FirstName] [LastName] has the highest salary of [HighestSalary].
+
+
+d. Department-wise Employee Count:
+SQL Query:
+SELECT DepartmentID, COUNT(*) AS EmployeeCount 
+FROM Employees 
+GROUP BY DepartmentID;
+Finding: [EmployeeCount] employees belong to each department.
+
+
+e. Top N Employees by Salary:
+SQL Query:
+SELECT FirstName, LastName, Salary 
+FROM Employees 
+ORDER BY Salary DESC 
+LIMIT N;
+Finding: The top N employees by salary are [FirstName] [LastName] with a salary of [Salary].
+
+
+
+
+
+Game Analysis:
+
+a. Total Number of Games Played:
+
+SQL Query: SELECT COUNT(*) AS TotalGames FROM Games;
+Finding: A total of [TotalGames] games have been played.
+
+
+b. Average Score per Game:
+
+SQL Query: SELECT AVG(Score) AS AverageScore FROM Games;
+Finding: The average score per game is [AverageScore].
+
+
+c. Most Common Difficulty Level:
+
+SQL Query:
+SELECT Difficulty, COUNT(*) AS Frequency 
+FROM Games 
+GROUP BY Difficulty 
+ORDER BY Frequency DESC 
+LIMIT 1;
+Finding: [Difficulty] is the most common difficulty level with [Frequency] occurrences.
+
+
+d. Kill Count Distribution:
+SQL Query:
+SELECT Kill_Count, COUNT(*) AS Frequency 
+FROM Games 
+GROUP BY Kill_Count 
+ORDER BY Kill_Count;
+Finding: The distribution of kill counts in games shows [Frequency] games had [Kill_Count] kills.
+
+
+e. Average Lives Earned per Player:
+SQL Query:
+SELECT AVG(Lives_Earned) AS AverageLivesEarned 
+FROM Games;
+Finding: On average, players earn [AverageLivesEarned] lives per game.
+These findings provide insights into the employee and game datasets, offering valuable information for analysis and decision-making.
