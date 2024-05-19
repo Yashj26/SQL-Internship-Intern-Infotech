@@ -29,4 +29,5 @@ average kill count for Medium difficulty.
 using `Rank`. Display `Dev_ID` as well.
 9. Extract the top 3 highest sums of scores for each `Dev_ID` and the corresponding `P_ID`. 
 10. Find players who scored more than 50% of the average score, scored by the sum of 
-scores for each `P_ID`.  
+scores for each `P_ID`.
+
